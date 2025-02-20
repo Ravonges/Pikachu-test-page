@@ -10,6 +10,9 @@
     overflow:auto;
 }
 
+
+
+/* Here begins main page*/
 header{
     background-color:rgb(255, 228, 196);
     position:relative;
@@ -121,8 +124,10 @@ footer{
 
 footer p{
     margin:0;
-    text-align:0;
+    text-align:center;
 }
+
+
 
 
 
@@ -188,6 +193,12 @@ footer p{
 
 
 
+
+
+
+
+
+
 /* About starts here */
 
 .about-container{
@@ -195,4 +206,314 @@ footer p{
     overflow:auto;
     text-align:center;
 }
+
+
+
+
+/* This is where box one begins, the box about bio */
+.abouttitlebox{
+    margin-bottom:20px;
+}
+
+.aboutbox{
+    margin-bottom:20px;
+    display:flex;
+}
+
+
+.abouttxt{
+justify-content:left;
+margin-left:25px;
+margin-bottom:30px;
+}
+
+.factmages{
+    justify-content:right;
+    max-width:50vh;
+    max-height:65vh;
+    height:auto;
+    margin-left:15px;
+    margin-right:25px;
+    margin-bottom:30px;
+}
+
+
+.abouttitle{
+    margin-right:260px;
+    margin-top:40px;
+    text-align:center;
+}
+
+
+
+
+/* This is where box two begins, the box about behavior */
+.aboutbox2{
+    margin-bottom:20px;
+    display:flex;
+}
+
+.abouttxt2{
+    justify-content:left;
+    margin-left:25px;
+    margin-bottom:30px;
+}
+    
+.factmages2{
+    justify-content:right;
+    max-width:50vh;
+    max-height:55vh;
+    margin-left:15px;
+    margin-right:25px;
+    margin-bottom:30px;
+}
+
+.abouttitle2{
+
+    margin-right:350px;
+    margin-top:40px;
+    text-align:center;
+}
+
+
+
+    
+/* This is where box three begins, the box about ability */
+.aboutbox3{
+    margin-bottom:20px;
+    display:flex;
+}
+
+.abouttxt3{
+    justify-content:right;
+    margin-right:25px;
+    margin-bottom:30px;
+}
+        
+.factmages3{
+    justify-content:left;
+    max-width:50vh;
+    max-height:70vh;
+    margin-right:15px;
+    margin-left:25px;
+    margin-bottom:30px;
+}
+
+
+.abouttitle3{
+
+    margin-right:350px;
+    margin-top:40px;
+    text-align:center;
+}
+    
+
+
+
+
+
+
+
+/* This is where the ipad friendly challenge begins */
+
+@media screen and (max-width:900px) {
+  
+
+  
+    /* This is where box one begins, the box about bio */
+
+    
+.abouttitlebox{
+    margin-bottom:20px;
+}
+
+.aboutbox{
+    margin-bottom:20px;
+    display:flex;
+}
+
+
+.abouttxt{
+justify-content:left;
+margin-left:25px;
+margin-bottom:30px;
+}
+
+.factmages{
+    justify-content:right;
+    max-width:50vh;
+    max-height:65vh;
+    height:auto;
+    margin-left:15px;
+    margin-right:25px;
+    margin-bottom:30px;
+}
+
+
+.abouttitle{
+    margin-top:40px;
+    text-align:left;
+}
+
+
+
+
+/* This is where box two begins, the box about behavior */
+
+
+.aboutbox2{
+    margin-bottom:20px;
+    display:flex;
+}
+
+.abouttxt2{
+    justify-content:left;
+    margin-left:25px;
+    margin-bottom:30px;
+}
+    
+.factmages2{
+    justify-content:right;
+    max-width:50vh;
+    max-height:55vh;
+    margin-left:15px;
+    margin-right:25px;
+    margin-bottom:30px;
+}
+
+.abouttitle2{
+    margin-top:40px;
+    text-align:left;
+}
+
+
+    
+/* This is where box three begins, the box about ability */
+
+
+
+.aboutbox3{
+
+    margin-bottom:20px;
+    display:flex;
+}
+
+
+
+.abouttxt3{
+    justify-content:right;
+    margin-right:25px;
+    margin-bottom:30px;
+}
+        
+.factmages3{
+    justify-content:left;
+    max-width:50vh;
+    max-height:70vh;
+    margin-right:15px;
+    margin-left:25px;
+    margin-bottom:30px;
+}
+
+
+.abouttitlebox3{
+    display:flex;
+    align-items:left;
+}
+
+.abouttitle3{
+    text-align:left;
+    margin-top:40px;
+    margin-left:0;
+}
+
+
+
+} 
+
+
+
+
+
+
+
+
+/* This is where the mini version begins */
+@media screen and (max-width:750px) {
+    /* This is where box one begins, the box about bio */
+.abouttitlebox{
+    margin:auto;
+}
+
+.aboutbox{
+    margin-bottom:20px;
+    display:block;
+}
+
+
+.abouttxt{
+margin-left:5px;
+}
+
+.factmages{
+    max-width:50%;
+    height:auto;
+    margin-right:5px;
+    margin-bottom:8px;
+}
+
+
+.abouttitle{
+    margin:auto;
+}
+
+
+
+
+/* This is where box two begins, the box about behavior */
+.aboutbox2{
+    margin-bottom:20px;
+    display:block;
+}
+
+.abouttxt2{
+    margin-left:5px;
+}
+    
+.factmages2{
+    max-width:50%;
+    margin-left:5px;
+    margin-bottom:8px;
+}
+
+.abouttitle2{
+    margin:auto;
+}
+
+
+
+    
+/* This is where box three begins, the box about ability */
+.aboutbox3{
+    margin-bottom:20px;
+    display:block;
+}
+
+.abouttxt3{
+    margin-right:5px;
+}
+        
+.factmages3{
+    max-width:50%;
+    margin-right:5px;
+    margin-bottom:8px;
+}
+
+.abouttitle3{
+    margin:auto;
+}
+    
+}
+
+
 
